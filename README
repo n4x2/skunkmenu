@@ -1,0 +1,7 @@
+skunkmenu
+---------
+skunkmenu is dmenu interface for `skunk` a boring password manager.
+it provide quick way to copy a password to the clipboard, without
+having to open up a terminal window. recommend to use password patch
+https://tools.suckless.org/dmenu/patches/password/ for dmenu to hide
+typing password.
