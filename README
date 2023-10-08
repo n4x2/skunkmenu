@@ -1,7 +1,20 @@
 skunkmenu
----------
+=========
 skunkmenu is dmenu interface for `skunk` a boring password manager.
-it provide quick way to copy a password to the clipboard, without
-having to open up a terminal window. recommend to use password patch
-https://tools.suckless.org/dmenu/patches/password/ for dmenu to hide
-typing password.
+it provide quick way to copy a password into the clipboard, without
+having to open up a terminal window. 
+
+Recommendation
+--------------
+Enable a shortcut, `Alt+S`, to launch skunkmenu while applying dwm 
+patch [1], and applying dmenu patch [0] to hide typing.
+
+Installation
+------------
+  
+    go install github.com/n4x2/skunkmenu@latest
+
+patch
+-----
+[0] https://tools.suckless.org/dmenu/patches/password/
+[1] https://gist.github.com/n4x2/5d89b7bf494eef8f9bc46ef431a912d2
